@@ -1,0 +1,23 @@
+.header {
+  width: 100vw;
+  background-color: #f6e3c5;
+  height: 30px;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+}
+
+.left div {
+  display: flex;
+  align-items: center;
+}
