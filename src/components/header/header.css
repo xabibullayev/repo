@@ -1,7 +1,7 @@
 .header {
-  width: 100vw;
   background-color: #f6e3c5;
-  height: 30px;
+  height: 40px;
+  color: #575f65;
 }
 
 .container {
@@ -9,15 +9,25 @@
   height: 100%;
   margin: auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .left {
   display: flex;
-  gap: 20px;
 }
 
 .left div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.left div span {
+  margin-left: 5px;
+}
+
+.right {
   display: flex;
   align-items: center;
 }
