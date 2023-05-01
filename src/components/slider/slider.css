@@ -1,0 +1,53 @@
+.slider {
+  background-color: #f5e1be;
+  height: 100vh;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.title {
+  flex: 1;
+}
+
+.title h1 {
+  font-size: 80px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.title p {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  background-color: #408858;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 20px 40px;
+  margin-right: 30px;
+}
+
+.btn2 {
+  background-color: #fab522;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.img {
+  flex: 1;
+}
+
+.slider-img {
+  width: 100%;
+}
