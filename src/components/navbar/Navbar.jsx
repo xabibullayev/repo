@@ -1,7 +1,7 @@
 "navbar.css";
 
 function Navbar() {
-  return <div>Navbar</div>;
+  return <div>Islew kerek</div>;
 }
 
 export default Navbar;
